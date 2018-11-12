@@ -1,0 +1,217 @@
+body{
+  font-family:Raleway;
+  font-size:18px;
+}
+
+ul.nav a:hover{
+  color:#010101 !important;
+}
+
+#nav{
+  font-family:'Open Sans';
+  font-weight:bold;
+}
+
+#tst{
+  padding:20px;
+}
+
+.search-text{
+  margin-top:50px;
+  background-color:#272d33;
+  padding-top:60px;
+  padding-bottom:60px;
+}
+
+.search-text .input-search{
+  height:45px;
+  width:40%;
+  padding-left:20px;
+  color:#333;
+}
+
+.search-text .btn-search{
+  background:#da3e44;
+  font-family:Roboto;
+  border:none;
+  color:#FFF;
+  height:45px;
+  width:80px;
+}
+
+.search-text h4{
+  color:#FFF;
+  font-weight:700;
+}
+
+footer{
+  padding:30px 0px;
+}
+
+.logo{
+  color:#FFF;
+  font-weight:800;
+  font-size:30px;
+}
+
+.adress span, .menu span, .docu span{
+  color:#FFF;
+  font-weight:800;
+  border-bottom:1px solid #c7c7c7;
+  padding-bottom:10px;
+  margin-bottom:20px;
+  display:block;
+  text-transform:uppercase;
+  font-size:16px;
+  letter-spacing:3px;
+}
+
+.adress li a, .menu li a, .docu li a{
+  color:#FFF;
+  letter-spacing:3px;
+  text-decoration:none;
+  font-size:12px;
+}
+
+.adress li, .menu li, .docu li{
+  margin-top:5px;
+  list-style:none;
+}
+
+.adress li a:hover, .menu li a:hover, .docu li a:hover{
+  color:#da3e44;
+  -webkit-transition:all 1s ease-in-out;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+}
+
+.fa{
+  color:#8bacbd;
+  margin-right:10px;
+  font-size:14px;
+}
+
+@media (min-width:767px) {
+  body p{
+    margin-left:60px;
+    margin-right:70px;
+  }
+}
+
+@media (min-width:767px) {
+  body h4{
+    margin-left:40px;
+    margin-right:40px;
+  }
+}
+
+#video{
+  padding-bottom:30px;
+  padding-top:90px;
+  background-color:rgba(255,255,255,0.6);
+  text-align:center;
+  background-image:url(../../assets/img/backg.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+#nosotros{
+  background-color:#f2f2f2;
+  padding-top:90px;
+  padding:30px;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#nosotros h1{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+#regular{
+  background-color:#babbbb;
+  padding:30px;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#regular h1{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+#ludopatia{
+  background-color:#e6e6e6;
+  padding:30px;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#ludopatia h1{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+#propuesta{
+  background-color:rgba(166,166,166,0.7);
+  padding:30px;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#propuesta h1{
+  text-align:center;
+  padding-bottom:20px;
+}
+
+#contacto{
+  background-color:#313131;
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#documentacion{
+  background-color:#b8b3b3;
+  text-justify:inter-word;
+  text-align:justify;
+  padding:30px;
+}
+
+.paragraph{
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+footer{
+  background-color:#222020;
+}
+
+#logo{
+  background-color:white;
+}
+
+#foot{
+  background-color:#222020;
+  margin:30px;
+}
+
+#video img{
+  opacity:0.5;
+}
+
+.nb{
+  transition:0.4s;
+  color:#917676;
+  font-size:20px;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+.nb:hover{
+  background-color:#fcfcfc;
+  color:#010101;
+  padding:12px 5px;
+}
+
